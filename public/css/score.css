@@ -10,23 +10,23 @@
         cursive;
 }
 
+html {
+    background: url('/img/admin.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
 #head {
     position: fixed;
-    top: 0;
-    left: 0;
-    font-size: 50px;
-    color: white;
-    padding: 5px;
-    height: 60px;
-    width: 100vw;
-    background: black;
+    padding: 10px;
+    width: 100vw !important;
+    margin-top: -7px;
+    text-align: left;
 }
 #head img{
-    display: flex;
-    justify-content: center;
-    width: 455px;
-    height: 55px;
-    margin: auto;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    height: 10%;
+    width: 10%;
 }
 
 
@@ -45,7 +45,7 @@ body {
 }
 
 #main-container {
-    background: white;
+    background: rgba(255, 255, 255, 0.336);
     width: 500px;
     height: 80%;
     padding: 2em;

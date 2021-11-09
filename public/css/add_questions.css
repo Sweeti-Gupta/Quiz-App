@@ -7,34 +7,33 @@
     font-family: 'Mirza', cursive;
 }
 
-#head {
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-size: 50px;
-    color: white;
-    padding: 5px;
-    height: 60px;
-    width: 100vw;
-    background: black;
+html {
+    background: url('/img/admin.jpg') no-repeat center fixed;
+    background-size: cover;
 }
+
+#head {
+    padding: 10px;
+    width: 100vw !important;
+    margin-top: -7px;
+    text-align: left;
+}
+
 #head img{
-    display: flex;
-    justify-content: center;
-    width: 455px;
-    height: 55px;
-    margin: auto;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   height: 10%;
+   width: 10%;
 }
 
 #container {
-    background: cornflowerblue;
     width: 100vw;
     display: flex;
-    padding-top: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .question-section {
@@ -45,7 +44,7 @@
 
 #heading {
     font-size: 50px;
-    margin: 20px;
+
     position: relative;
     border: 0px;
     border-radius: 8px;
@@ -56,7 +55,7 @@
 }
 
 .question-form {
-    background: #9147FF;
+    background: #9e9e9e33;
     display: flex;
     height: 75vh;
     width: 80vw;
@@ -78,6 +77,8 @@ input {
     border: 0;
     border-radius: 10px;
     margin: 1.5em;
+    font-size: 1.3em;
+    text-align: center;
 }
 
 button {
