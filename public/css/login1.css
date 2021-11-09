@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mirza';
+    overflow:hidden;
+}
+
+body {
+    background: #9147FF;
+    /* background: grey; */
+    /* background: #f5f5f5; */
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#start-test {
+    background-color: rgb(250, 220, 225);
+    box-shadow: 1px 2px 1px 0 grey;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    padding-top:10px;
+    /* background: #D83F87; */
+    /* background: black; */
+}
+
+button, #testid {
+    font-size: x-large;
+    margin: 1rem auto;
+}
+
+#testid {
+    width: 500px;
+    box-shadow: 1px 2px 0 0 grey;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#admin-button {
+    background: black;
+    /* color: white; */
+    background-color: rgb(250, 220, 225);
+    cursor: pointer;
+}
+
+.question-section {
+    width: 80%;
+    height: 600px;
+}
+
+#heading {
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    width: 100vw !important;
+    background: black;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 75vw;
+    height: 500px; */
+    margin-top: 5px;
+}
+
+#login {
+    /* width: 90%;
+    height: 90%; */
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+#login {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactForm {
+    display: flex;
+    background-color: #00000066;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:31px 40px;
+    margin-top:2rem;
+    background-color: rgb(250, 220, 225);
+}
+
+.adminbuttonmain {
+    /* display: flex; */
+    margin: 1rem auto;
+    flex-direction: column;
+    width: 600px;
+}
+
+#start-test-button, #testid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.7em;
+    color: black;
+}
+
+input {
+    border: 0;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+input:hover, input:focus, input:active {
+    color: black;
+}
+
+#submit-button {
+    padding: 8px 28px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background: slateblue;
+    color: white;
+}
+
+#login p {
+    font-size: 2.2rem;
+    margin-top:0.9rem;
+    color:white;
+}
+
+button {
+    border-radius: 10px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+#start-test-button:hover {
+    filter: brightness(0.9);
+}
+
+#admin-button:hover {
+    filter:brightness(0.9);
+}
+
+#contactForm {
+    /* width: 500px;
+    margin: auto; */
+    /* background: #bf9bf7; */
+    box-shadow: 1.5px 3px 0 0 grey;
+}
+
+#contactForm label {
+    margin: 1rem;
+}
+
+#contactForm input {
+    width: 400px;
+    font-size: 1.5rem;
+}
+
+#contactForm button {
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 655px) {
+    #testid {
+        width: 300px;
+    }
+    .adminbuttonmain {
+        width: 375px;
+    }
+    #contactForm input {
+        width: 300px;
+    }
+    #contactForm {
+        width: 400px;
+        margin: 0;
+    }
+}

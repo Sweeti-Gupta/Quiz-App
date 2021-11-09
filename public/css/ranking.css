@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Mirza:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans Condensed',
+        sans-serif;
+    color: white;
+    font-family: 'Mirza',
+        cursive;
+}
+body {
+    background: cornflowerblue;
+    background-size: 100vw 100vh;
+}
+
+#container {
+    text-align: center;
+    margin-top: 2.3rem;
+    padding-top: 1rem;
+}
+
+#table-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    font-size: 40px;
+    color: black;
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    height: 60px;
+    width: 100vw;
+    background: black;
+}
+#head img{
+    display: flex;
+    justify-content: center;
+    width: 455px;
+    height: 55px;
+    margin: auto;
+}
+
+#ranking-table{
+    width: 70%;
+}
