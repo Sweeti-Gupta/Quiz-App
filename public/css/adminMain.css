@@ -7,26 +7,47 @@
         cursive;
 }
 
+html {
+    background: url('/img/admin.jpg') no-repeat center fixed;
+    background-size: cover;
+}
 
 body{
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .bgImg{
-    height: 500px;
-    width: 80vw;
+    
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 
-img {
-    width: 100%;
-    height: 100%;
+#head{
+    padding: 10px;
+    width: 100vw !important;
+    margin-top: -7px;
+    text-align: left;
+    margin-bottom: 10em;
 }
+
+#head2{
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+}
+
+#head img{
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   height: 10%;
+   width: 10%;
+}
+
+
 .option{
     box-sizing: border-box;
     padding-top: 3vw;
@@ -35,7 +56,7 @@ img {
 
 .option a{
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
     background-color: rgba(100, 95, 95, 0.486);
     margin-left: 2vw;
     padding: 2vh;
@@ -64,28 +85,19 @@ img {
 
 #head {
     position: fixed;
-    top: 0;
-    left: 0;
+    text-align: left;
     font-size: 50px;
     color: white;
     padding: 5px;
-    height: 60px;
-    width: 100vw;
-    background: black;
 }
 #head img{
     display: flex;
-    justify-content: center;
-    width: 455px;
-    height: 55px;
+    justify-content: left;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   height: 10%;
+   width: 10%;
     margin: auto;
 }
-
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 600px) {
-
-    .bgImg {
-        height: 300px;
-    }
 
 }
